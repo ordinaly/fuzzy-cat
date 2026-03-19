@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Active%20Development-blue)]()
 [![Tests](https://img.shields.io/badge/Tests-In%20Progress-orange)]()
+⚠️ Work in progress, ongoing implementation
 
 ---
 
