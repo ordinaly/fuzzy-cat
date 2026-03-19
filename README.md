@@ -251,7 +251,7 @@ Mixed triangles stayed near center.
 
 ## Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+We welcome contributions!
 
 ### Ways to Contribute
 - **Code**: Implement features, fix bugs, optimize performance
