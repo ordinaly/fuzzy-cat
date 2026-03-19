@@ -1,7 +1,7 @@
 # Fuzzy Cat: A System for Witnessing Collective Human Thought
 
 **Version**: 1.0  
-**Date**: 2026  
+**Date**: 2024  
 **Status**: Clean Specification  
 
 ## Executive Summary
@@ -63,9 +63,59 @@ Individual members' positions are **never recorded individually**. Instead:
   - "Initial diversity: std dev 0.12, Final diversity: std dev 0.0"
   - This shows deliberation happened and compressed disagreement
 
+- **Assignment is random with constraints**: People are randomly assigned to triangles with strict diversity requirements (expertise balance, geographic mixing, demographic diversity), making de-anonymization computationally intractable
+
 **Why**: Protects individual dignity. No one can be identified or judged. The triangle is the unit, not the person.
 
-### 1.3 Metadata: Who Is In This Triangle?
+### 1.3 Random Assignment with Diversity Constraints
+
+People are **randomly assigned** to triangles, subject to strict constraints:
+
+```
+Expertise Balance:
+  - 1 domain expert on the topic
+  - 1 intermediate practitioner  
+  - 1 novice/generalist
+
+Geographic Diversity:
+  - At least 2 different location types (urban/rural/suburban)
+  - Ideally from different regions
+
+Demographic Balance:
+  - Minimum 20-year age spread
+  - Professional background diversity
+  - Educational level mix
+  
+Temporal Constraints:
+  - No two people who deliberated together in last 30 days
+```
+
+**Why random with constraints?**
+
+This makes de-anonymization **NP-hard**—computationally intractable.
+
+An attacker trying to figure out "which three people formed this triangle?" must solve a Constraint Satisfaction Problem:
+
+```
+Given: Observed triangle outputs, metadata, constraints
+Find: Which assignment of people produces these outputs?
+
+Problem: This is like solving SAT (Boolean Satisfiability)
+  - Search space: exponential in number of people and triangles
+  - Many valid assignments exist
+  - No polynomial algorithm known to find solution
+
+Complexity Bound: O(2^k) where k is constraint tightness
+```
+
+**Example**: 1,000 people, 50 triangles, 4 tight constraints
+- Naive attack: Try all assignments = exponential time
+- With constraint propagation: Still exponential
+- Practical result: Computationally infeasible
+
+**Key insight**: Security via mathematics, not secrecy. Even if all data leaks (outputs, metadata, constraint definitions), the actual assignment remains protected.
+
+### 1.4 Metadata: Who Is In This Triangle?
 
 Instead of tracking individuals, we track aggregate characteristics:
 
