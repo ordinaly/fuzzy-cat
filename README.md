@@ -421,8 +421,7 @@ MIT License. See [LICENSE](./LICENSE) file.
 
 - **GitHub Issues**: Bug reports, feature requests, questions
 - **GitHub Discussions**: Philosophical debates, research ideas, general chat
-- **Email**: hello@fuzzycat.ai
-- **Twitter**: [@FuzzyCatHQ](https://twitter.com/FuzzyCatHQ)
+- **Email**: arnoldvbg@gmail.com
 
 ---
 
