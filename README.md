@@ -106,24 +106,6 @@ Built on emergence theory, information theory, Gödel's incompleteness, and syst
 3. **Understand the theory**:
    - [EMERGENCE_PROOF.md](./docs/EMERGENCE_PROOF.md) — Five proofs of emergence
 
-### For Developers (30 minutes)
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/fuzzy-cat.git
-cd fuzzy-cat
-
-# Install dependencies
-pip install -r backend/requirements.txt
-cd frontend && npm install && cd ..
-
-# Run locally
-docker-compose up
-
-# Visit http://localhost:3000
-# Create a triangle, deliberate, see the magic
-```
-
 ### For Researchers (2 hours)
 
 1. Read the whitepaper
