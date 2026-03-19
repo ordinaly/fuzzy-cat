@@ -101,29 +101,12 @@ Built on emergence theory, information theory, Gödel's incompleteness, and syst
    ```
 
 2. **See the whitepaper**:
-   - [FUZZY_CAT_COMPLETE_WHITEPAPER.pdf](./docs/FUZZY_CAT_COMPLETE_WHITEPAPER.pdf) — Formal proofs and philosophy
-   - [SPECIFICATION.md](./docs/SPECIFICATION.md) — Technical spec
+   - [FUZZY_CAT_WHITEPAPER.pdf](./docs/FUZZY_CAT_WHITEPAPER.pdf) — Formal proofs and philosophy
+   - [SPECIFICATION.md](./SPECIFICATION.md) — Technical spec
 
 3. **Understand the theory**:
-   - [EMERGENCE_PROOF.md](./docs/EMERGENCE_PROOF.md) — Five proofs of emergence
+   - [EMERGENCE_PROOF.md](./EMERGENCE_PROOF.md) — Five proofs of emergence
   
-### For Developers (30 minutes)
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/fuzzy-cat.git
-cd fuzzy-cat
-
-# Install dependencies
-pip install -r backend/requirements.txt
-cd frontend && npm install && cd ..
-
-# Run locally
-docker-compose up
-
-# Visit http://localhost:3000
-# Create a triangle, deliberate, see the magic
-```
 
 ### For Researchers (2 hours)
 
@@ -232,12 +215,11 @@ Empirically test theories of consciousness, emergence, and collective intelligen
 
 | Document | Purpose |
 |----------|---------|
-| [SPECIFICATION.md](./docs/SPECIFICATION.md) | What Fuzzy Cat is and does |
-| [ARCHITECTURE.md](./docs/ARCHITECTURE.md) | How it's built technically |
-| [ETHICS.md](./docs/ETHICS.md) | Why dignity protection matters |
-| [WHITEPAPER.pdf](./docs/FUZZY_CAT_COMPLETE_WHITEPAPER.pdf) | Formal proofs and philosophy |
-| [EMERGENCE_PROOF.md](./docs/EMERGENCE_PROOF.md) | Five mathematical theorems |
-| [API.md](./docs/API.md) | REST API reference |
+| [SPECIFICATION.md](./SPECIFICATION.md) | What Fuzzy Cat is and does |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | How it's built technically |
+| [ETHICS.md](./ETHICS.md) | Why dignity protection matters |
+| [WHITEPAPER.pdf](./docs/FUZZY_CAT_WHITEPAPER.pdf) | Formal proofs and philosophy |
+| [EMERGENCE_PROOF.md](./EMERGENCE_PROOF.md) | Five mathematical theorems |
 
 ---
 
@@ -264,51 +246,6 @@ Level 3 (1 mega-triangle):
 Insight: Deliberation moved rural triangles up 7%, urban down 12%.
 Mixed triangles stayed near center.
 ```
-
-### Example 2: Urban Planning (81 people, 4 levels)
-[See `examples/urban_planning_case_study.md`](./examples/urban_planning_case_study.md)
-
-### Example 3: Cultural Exchange (3 people, different countries)
-[See `examples/cultural_exchange.ipynb`](./examples/cultural_exchange.ipynb)
-
----
-
-## Installation
-
-### Option 1: Docker (Recommended)
-```bash
-docker-compose up
-# Open http://localhost:3000
-```
-
-### Option 2: Local Development
-```bash
-# Backend
-cd backend
-pip install -r requirements.txt
-python main.py
-
-# Frontend (in new terminal)
-cd frontend
-npm install
-npm start
-```
-
-### Option 3: Production (Ethereum Mainnet)
-```bash
-docker-compose -f docker-compose.prod.yml up
-# Uses Ethereum mainnet, production database, optimized performance
-```
-
----
-
-## Tech Stack
-
-**Frontend**: React, D3.js, Material-UI  
-**Backend**: Python, FastAPI, NumPy/SciPy  
-**Blockchain**: Ethereum, Solidity smart contracts  
-**Storage**: IPFS (decentralized), PostgreSQL (metadata)  
-**Analysis**: Python, scikit-learn, pandas  
 
 ---
 
