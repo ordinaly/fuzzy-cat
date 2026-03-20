@@ -1,6 +1,6 @@
 # 🐱 Fuzzy Cat
 
-**A witness of collective consciousness. A tool for witnessing how humans think together.**
+**A witness of collective consciousness. A tool for observing how humans think together.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Active%20Development-blue)]()
