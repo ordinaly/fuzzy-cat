@@ -102,7 +102,7 @@ Built on emergence theory, information theory, Gödel's incompleteness, and syst
 
 2. **See the whitepaper**:
    - [FUZZY_CAT_WHITEPAPER.pdf](./docs/FUZZY_CAT_WHITEPAPER.pdf) — Formal proofs and philosophy
-   - [SPECIFICATION.md](./FUZZY_CAT_SPECIFICATION.md) — Technical spec
+   - [FUZZY_CAT_SPECIFICATION.md](./FUZZY_CAT_SPECIFICATION.md) — Technical spec
 
 3. **Understand the theory**:
    - [EMERGENCE_PROOF.md](./EMERGENCE_PROOF.md) — Five proofs of emergence
