@@ -294,7 +294,7 @@ A: Voting erases disagreement. Fuzzy Cat preserves it. You see the full landscap
 A: Surveys ask people what they think. Fuzzy Cat watches what happens when people actually deliberate. The difference is huge.
 
 **Q: Can Fuzzy Cat make decisions for us?**  
-A: No. Fuzzy Cat has zero enforcement power. It only witnesses and recommends. Humans decide.
+A: No. Fuzzy Cat has zero enforcement power. It only witnesses and analyzes. Humans decide.
 
 **Q: Is this a governance system?**  
 A: No. It's a witness to governance. It makes visible how humans think, but doesn't force outcomes.
@@ -307,30 +307,6 @@ A: Individual positions are never recorded or identified. Only triangle aggregat
 
 **Q: Is this real or theoretical?**  
 A: Both. We have formal proofs and a working implementation. Pilot tests show it works as predicted.
-
----
-
-## Roadmap
-
-### Phase 1 ✅ (Complete)
-- Formal mathematical proofs
-- Smart contracts for triangle recording
-- Basic backend and frontend
-
-### Phase 2 🚀 (Current)
-- Pilot test with 200+ people
-- Statistical analysis tools
-- Interactive visualizations
-
-### Phase 3 (Planned)
-- Scale to 10,000+ people
-- Mobile app
-- Academic paper publication
-
-### Phase 4 (Vision)
-- Deployment in real communities
-- Integration with decision-making processes
-- Research partnerships with universities
 
 ---
 
