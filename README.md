@@ -342,13 +342,11 @@ A: Both. We have formal proofs and a working implementation. Pilot tests show it
 - Surowiecki, J. (2004). The Wisdom of Crowds
 - von Bertalanffy, L. (1968). General System Theory
 
-See [REFERENCES.md](./docs/REFERENCES.md) for full bibliography.
-
 ---
 
 ## License
 
-MIT License. See [LICENSE](./LICENSE) file.
+MIT License.
 
 **In plain English**: Use it however you want. Give credit if you can. Don't sue us.
 
