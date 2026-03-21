@@ -215,7 +215,7 @@ Empirically test theories of consciousness, emergence, and collective intelligen
 
 | Document | Purpose |
 |----------|---------|
-| [SPECIFICATION.md](./SPECIFICATION.md) | What Fuzzy Cat is and does |
+| [SPECIFICATION.md](./FUZZY_CAT_SPECIFICATION.md) | What Fuzzy Cat is and does |
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | How it's built technically |
 | [ETHICS.md](./ETHICS.md) | Why dignity protection matters |
 | [WHITEPAPER.pdf](./docs/FUZZY_CAT_WHITEPAPER.pdf) | Formal proofs and philosophy |
